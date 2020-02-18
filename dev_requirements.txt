@@ -1,0 +1,3 @@
+# test requirements
+pytest
+pytest-readme>=1.0.0

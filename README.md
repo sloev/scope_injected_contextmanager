@@ -16,6 +16,10 @@ Functions decorated with `@scope_injected_contextmanager` becomes context manage
 
 **As an instance** 
 ```python
+from scope_injected_contextmanager import scope_injected_contextmanager
+@scope_injected_contextmanager
+def decorated_function(): pass
+
 with decorated_function:
     something = 100
 ```
@@ -23,6 +27,10 @@ with decorated_function:
 **Or as a function**
 
 ```python
+from scope_injected_contextmanager import scope_injected_contextmanager
+@scope_injected_contextmanager
+def decorated_function(): pass
+
 with decorated_function():
     something = 100
 ```
@@ -88,3 +96,5 @@ Thats why i hacked this together ;-)
 ## Testing
 
 see [tests](./tests/test_all.py)
+
+run `make setup-all tox` on a (linux or osx) with [pyenv](https://github.com/pyenv/pyenv#installation) installed.

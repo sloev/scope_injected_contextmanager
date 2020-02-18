@@ -1,5 +1,7 @@
 # Scope Injected ContextManager
 
+[![Build Status](https://travis-ci.org/sloev/scope_injected_contextmanager.svg?branch=master)](https://travis-ci.org/sloev/scope_injected_contextmanager) [![Latest Version](https://img.shields.io/pypi/v/scope_injected_contextmanager.svg)](https://pypi.python.org/pypi/scope_injected_contextmanager) [![Python Support](https://img.shields.io/pypi/pyversions/scope_injected_contextmanager.svg)](https://pypi.python.org/pypi/scope_injected_contextmanager) [![Examples tested with pytest-readme](http://img.shields.io/badge/readme-tested-brightgreen.svg)](https://github.com/boxed/pytest-readme)
+
 A decorator/context manager that injects scope vars into a function
 
 * A context manager decorator for **Python 3**

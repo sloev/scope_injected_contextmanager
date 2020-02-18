@@ -28,7 +28,6 @@ setup(
     url="https://github.com/sloev/scope_injected_contextmanager",
     packages=["scope_injected_contextmanager",],
     include_package_data=True,
-    install_requires=requirements,
     zip_safe=False,
     keywords="contextmanager decorator scope inject",
     classifiers=[
